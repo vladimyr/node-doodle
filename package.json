@@ -1,0 +1,39 @@
+{
+  "name": "node-doodle",
+  "version": "0.1.0",
+  "description": "Library for interacting with doodle.com",
+  "keywords": [
+    "doodle",
+    "poll",
+    "schedule",
+    "meeting",
+    "cli",
+    "cli-app"
+  ],
+  "bin": {
+    "doodle": "./bin/doodle"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/vladimyr/node-doodle",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vladimyr/node-doodle.git"
+  },
+  "author": {
+    "email": "d.vladimyr@gmail.com",
+    "name": "Dario Vladovic",
+    "url": "github.com/vladimyr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "got": "^6.0.0",
+    "qs": "^6.0.1",
+    "url-join": "0.0.1"
+  },
+  "devDependencies": {
+    "locus": "^1.2.0"
+  }
+}
